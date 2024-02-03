@@ -109,11 +109,20 @@ footer {
     }
 
     .container {
-        padding-left: 20px;
+        padding-left: 10px; /* Adjust padding for smaller screens */
         width: auto;
     }
 
     section {
         padding: 10px;
     }
+
+    .lg {
+        flex-direction: column; /* Adjust image layout in projects for smaller screens */
+    }
+
+    .project img {
+        margin-bottom: 10px;
+    }
 }
+
